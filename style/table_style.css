@@ -1,0 +1,50 @@
+table {
+    border-spacing: 0px;
+}
+
+th {
+    padding: 15px 10px 15px 5px;
+    border: 1px solid #3f4b564f;
+    border-radius: 3px;
+}
+
+.main_table {
+    margin: 10px auto 0px auto;
+    width: 1000px;
+    border: 1px solid #00bcc5;
+    border-radius: 5px;
+}
+
+.table_name {
+    display: flex;
+    margin: 10px auto 10px auto;
+    font-size: 15px;
+    height: 60px;
+    align-items: center;
+}
+
+.row_column_name {
+    background-color: #a8a8ff3b;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    height: 42px;
+}
+
+.column_name {
+    border: none;
+}
+
+.even_row {
+    background-color: #2eff9e3b;
+    font-weight: lighter;
+    font-size: 14px;
+    height: 30px;
+}
+
+.odd_row {
+    background-color: #2ed5ff3b;
+    font-weight: lighter;
+    font-size: 14px;
+    height: 30px;
+}
