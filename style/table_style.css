@@ -8,6 +8,25 @@ th {
     border-radius: 3px;
 }
 
+label {
+    margin: 0px 0px 10px 0px;
+    font-size: 17px;
+}
+
+input {
+    margin: 0px 0px 10px 0px;
+    font-size: 15px;
+    height: 25px;
+    border: 2px solid #316a9f;
+    border-radius: 5px;
+    background-color: #0069ff4f;
+}
+
+.table_container {
+    display: flex;
+    flex-direction: column;
+}
+
 .main_table {
     margin: 10px auto 0px auto;
     width: 1000px;
@@ -18,9 +37,29 @@ th {
 .table_name {
     display: flex;
     margin: 10px auto 10px auto;
-    font-size: 15px;
+    font-size: 25px;
     height: 60px;
     align-items: center;
+}
+
+.containers {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.submit_button {
+    width: 100%;
+    height: 30px;
+    font-size: 17px;
 }
 
 .row_column_name {
