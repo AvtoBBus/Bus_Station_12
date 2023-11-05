@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная 6</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style/about_me/about_style.css" rel="stylesheet">
+    <link href="style/fav_actor/info.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar_pages">
+            <button id="button_films" class="navbar_link" href="films.html" type="button">Фильмы с актёром</button>
+            <button id="navbar_link_alert1">что-то 1</button>
+            <button id="navbar_link_alert2">что-то 2</button>
+        </nav>
+    </div>
+
+    <div class="actor_name">
+        <h1 class="actor_name_text">РАЙАН ГОСЛИНГ</h1>
+    </div>
+    <div class="scrollspy_container">
+        <div class="row">
+            <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#carousel">Фотографии</a>
+                <a class="list-group-item list-group-item-action" href="#cards_container">Карточки с фильмами</a>
+                <a class="list-group-item list-group-item-action" href="#collapse_container">Об актёре</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_content">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="data\img\fav_actor\RG1.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="data\img\fav_actor\RG2.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="data\img\fav_actor\RG3.jpg" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="cards_container" id="cards_container">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <img class="card-img-top" src="data\img\fav_actor\Barbie_pic.webp" alt="Card image cap">
+                <h5 class="card-title">Barbie</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2023</h6>
+                <p class="card-text">Самая обыкновенная стереотипная Барби живёт в великолепном розовом Барбиленде, и
+                    каждый её день идеален. Она меняет наряды, загорает на пляже, проводит время с другими Барби, день
+                    заканчивается шумной вечеринкой с танцами, и в этой позитивной кутерьме с блёстками влюблённый Кен —
+                    всего лишь приложение к Барби.</p>
+                <a href="https://www.kinopoisk.ru/film/478052/" class="card-link">Кинопоиск</a>
+                <a href="https://www.youtube.com/watch?v=pBk4NYhWNMM&ab_channel=WarnerBros.Pictures"
+                    class="card-link">Трейлер</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <img class="card-img-top" src="data\img\fav_actor\EdgeRunner_pic.webp" alt="Card image cap">
+                <h5 class="card-title">Edge Runner 2049</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2017</h6>
+                <p class="card-text">В недалеком будущем мир населен людьми и репликантами, созданными выполнять самую
+                    тяжелую работу. Работа офицера полиции Кей — держать репликантов под контролем в условиях
+                    нарастающего напряжения. Он случайно становится обладателем секретной информации, которая ставит под
+                    угрозу существование всего человечества.</p>
+                <a href="https://www.kinopoisk.ru/film/589290/" class="card-link">Кинопоиск</a>
+                <a href="https://www.youtube.com/watch?v=gCcx85zbxz4&ab_channel=WarnerBros.Pictures"
+                    class="card-link">Трейлер</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <img class="card-img-top" src="data\img\fav_actor\Drive_pic.webp" alt="Card image cap">
+                <h5 class="card-title">Drive</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2011</h6>
+                <p class="card-text">Великолепный водитель – при свете дня он выполняет каскадерские трюки на съёмочных
+                    площадках Голливуда, а по ночам ведет рискованную игру. Но один опасный контракт – и за его жизнь
+                    назначена награда.</p>
+                <a href="https://www.kinopoisk.ru/film/276598/" class="card-link">Кинопоиск</a>
+                <a href="https://www.youtube.com/watch?v=KBiOF3y1W0Y&ab_channel=RottenTomatoesTrailers"
+                    class="card-link">Трейлер</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <img class="card-img-top" src="data\img\fav_actor\LaLaLend_pic.webp" alt="Card image cap">
+                <h5 class="card-title">La La Land</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2016</h6>
+                <p class="card-text">Это история любви старлетки, которая между прослушиваниями подает кофе состоявшимся
+                    кинозвездам, и фанатичного джазового музыканта, вынужденного подрабатывать в заштатных барах.</p>
+                <a href="https://www.kinopoisk.ru/film/841081/" class="card-link">Кинопоиск</a>
+                <a href="https://www.youtube.com/watch?v=0pdqf4P9MB8&ab_channel=LionsgateMovies"
+                    class="card-link">Трейлер</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <img class="card-img-top" src="data\img\fav_actor\GoodBoys_pic.webp" alt="Card image cap">
+                <h5 class="card-title">The Nice Guys</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2016</h6>
+                <p class="card-text">Что бывает, когда напарником брутального костолома становится субтильный лопух?
+                    Наемный охранник Джексон Хили и частный детектив Холланд Марч вынуждены работать в паре, чтобы
+                    распутать плевое дело о пропавшей девушке, которое оборачивается преступлением века.</p>
+                <a href="https://www.kinopoisk.ru/film/841152/" class="card-link">Кинопоиск</a>
+                <a href="https://www.youtube.com/watch?v=GQR5zsLHbYw&ab_channel=WarnerBros.Pictures"
+                    class="card-link">Трейлер</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="collapse_container" id="collapse_container">
+
+        <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1">
+                Актёрская карьера
+            </button>
+        </p>
+        <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+                <div class="card card-body" style="width: 300px;">
+                    1993—1999: Ребёнок актёр<br>
+                    2000—2003: Переход в независимое кино<br>
+                    2004—2009: «Дневник памяти» и «Полу-Нельсон»<br>
+                    2010—2012: Широкое признание<br>
+                    2013—2014: Неоднозначный прием и режиссёрский дебют<br>
+                    2015-настоящее время: «Ла-Ла Ленд» и возвращение в кино
+                </div>
+            </div>
+        </div>
+        <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
+                Ранняя жизнь и образование
+            </button>
+        </p>
+        <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+                <div class="card card-body" style="width: 300px;">
+                    Райан Томас Гослинг родился 12 ноября 1980 года в больнице Святого Иосифа в Лондоне, провинция
+                    Онтарио, в семье Томаса Рэя Гослинга, коммивояжера бумажной фабрики, и Донны, секретарши. Оба
+                    его родителя частично франкоканадского происхождения, а также немного немецкого, английского,
+                    шотландского и ирландского. Он и его семья были членами Церкви Иисуса Христа святых последних
+                    дней, и Райан сказал, что религия повлияла на каждый аспект их жизни. Из-за работы его отца они
+                    много переезжали, и Райан жил как в Корнуолле, провинция Онтарио, так и в Берлингтоне, провинция
+                    Онтарио. Его родители развелись, когда ему было 13 лет, и он со своей старшей сестрой Манди жил
+                    со своей матерью, что, по словам Райана, запрограммировало его «мыслить как девочка».
+                </div>
+            </div>
+        </div>
+
+        <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
+                Награды и номинации
+            </button>
+        </p>
+        <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+                <div class="card card-body" style="width: 300px;">
+                    Оскар, Золотой глобус, BAFTA, Выбор критиков, Независимый дух, Сатурн, Спутник, Каннский
+                    кинофестиваль, Национальный совет кинокритиков США, Премия Гильдии киноактёров США
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="script/info.js"></script>
+    <script src="script/alert.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

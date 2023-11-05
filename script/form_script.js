@@ -20,7 +20,7 @@ button.addEventListener('click', (e) => {
         result_output += pair[1];
         result_output += "; ";
     }
-    console.log(result_output)
+    console.log(result_output);
     index++;
 })
 
