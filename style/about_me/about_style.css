@@ -59,17 +59,18 @@ h2 {
 
 .content-right {
     display: flex;
+    margin: 0px auto 0px 10px;
 }
 
 .content-left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 15px;
+    margin: 0px auto 0px auto;
     padding: 0px 12px 0px 7px;
     background-color: #99e3f15c;
     border: solid #086b7d;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .autobiography_about {

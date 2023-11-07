@@ -1,0 +1,112 @@
+.rowActorInfo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto 0px auto;
+    max-width: max-content;
+}
+
+.columnActorInfo {
+    margin: 0px 100px 0px 10px;
+}
+
+.actorImg {
+    width: 230px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.bestFilms {
+    font-size: 40px;
+    margin: 25px auto 10px auto;
+    text-shadow: 3px 3px 3px rgb(133, 133, 133);
+}
+
+.rowFilmsInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.flimsCell {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columnFilmsInfo {
+    margin: 5px auto 5px auto;
+    width: max-content;
+}
+
+.columnActorImg {
+    margin: 5px auto 5px 10px;
+}
+
+.card {
+    width: max-content;
+    height: 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "intro";
+    background-color: rgba(174, 174, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+.colRight {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.colLeft {
+    font-size: 13px;
+}
+
+.facts {
+    width: max-content;
+}
+
+.someFacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 0px auto;
+}
+
+.filmography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 30px auto;
+}
+
+.inFilms {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.colName {
+    font-size: 20px;
+}
+
+@media all and (max-width: 550px) {
+    .actorImg {
+        visibility: hidden;
+    }
+}
+
+@media all and (max-width: 770px) {
+    .columnActorImg {
+        margin: 5px auto 5px auto;
+    }
+}
